@@ -8,11 +8,20 @@ body{
     grid-template-rows: 20vh 15vh 50vh 30vh;
     /* grid-template-columns: 10vw 30vw 40vw 20vw */
     grid-gap: 5px;
-    background-color: blue;
+    background-color: blue
+}
+
+header div{
+    background-color: #a5a8b1;
+     height: 100%;
+     width: auto;
+     display: flex;
+     justify-content: center; 
 }
 header{
     grid-area:header;
-    background-color: red;
+    background-color:black;
+    
 }   
 nav{
     grid-area: nav;
