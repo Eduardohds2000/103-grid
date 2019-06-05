@@ -7,16 +7,17 @@ body{
                         'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh;
     /* grid-template-columns: 10vw 30vw 40vw 20vw */
-    grid-gap: 5px;
-    background-color: blue
+    
+    
 }
 
 header div{
     background-color: #a5a8b1;
-     height: 10px;
-     width: 600%;
+     height: 120px;
+     width: 60%;
      display: flex;
-     justify-content: center; 
+     justify-content: center;
+     border-radius: 30px;
 
 }
 header div img{
@@ -49,7 +50,7 @@ nav a:hover{
 }
 section{
     grid-area: section;
-    background-color:green;
+    background-color: yellow;
     display: flex;
     justify-content: center;
 
@@ -60,10 +61,20 @@ section img{
     width: 300px;
     border-radius: 100%;
 
+
 }
 aside{
     background-color:yellow;
     grid-area: aside;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    grid-area: aside;
+}
+aside p {
+    color: white;
+    
 }
 footer{
     background-color: black;
