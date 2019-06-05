@@ -17,16 +17,33 @@ header div{
      width: auto;
      display: flex;
      justify-content: center; 
+
+}
+header div img{
+    height: 100px;
+    width: 100px;
 }
 header{
     grid-area:header;
     background-color:black;
-    
+
 }   
 nav{
     grid-area: nav;
     background-color: blueviolet;
-
+    display: flex;
+    justify-content: space-around;
+    grid-area: nav;
+}
+nav a{
+    color: black;
+    font-family:;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: white;
 }
 section{
     grid-area: section;
