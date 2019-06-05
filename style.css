@@ -13,8 +13,8 @@ body{
 
 header div{
     background-color: #a5a8b1;
-     height: 100%;
-     width: auto;
+     height: 10px;
+     width: 600%;
      display: flex;
      justify-content: center; 
 
@@ -26,6 +26,8 @@ header div img{
 header{
     grid-area:header;
     background-color:black;
+    display: flex;
+    justify-content: center;
 
 }   
 nav{
@@ -48,6 +50,15 @@ nav a:hover{
 section{
     grid-area: section;
     background-color:green;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section img{
+    width: 300px;
+    border-radius: 100%;
 
 }
 aside{
